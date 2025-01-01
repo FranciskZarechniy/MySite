@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book12</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header class="header container">
+      <img
+        class="header__logo"
+        src="images/logo book.jpg"
+        alt="Логотип"
+        width="130"
+        height="100"
+      />
+      <h1 class="header__title">Book12</h1>
+      <a href="login/registration.html" class="menu__link"
+        >Вход / Регистрация</a
+      >
+      <section class="login">
+        <form action="/">
+          <h3>Вход / Регистрация</h3>
+          <input
+            type="tel"
+            name="phone"
+            placeholder="Номер телефона"
+            required
+          />
+          <input
+            type="password"
+            name="password"
+            placeholder="Пароль"
+            required
+          />
+          <button>Войти</button>
+        </form>
+      </section>
+      <nav class="header__menu">
+        <ul class="menu">
+          <li class="menu__item"><a href="#" class="menu__link">Книги</a></li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Участникам</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Владельцам</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">O компании</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Контактные данные</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main container">
+      <section>
+        <div class="popular_models">
+          <h2>Наиболее популярные предложения</h2>
+          <img
+            class="popular_book"
+            src="images/Popular books.jpg"
+            alt="kniga"
+            width="750"
+          />
+          <p><a href="#">О модели</a></p>
+        </div>
+      </section>
+      <section class="model">
+        <h2 class="model__title">Книжный ряд</h2>
+        <ul class="model__list">
+          <li class="model__list-item">
+            <img
+              class="model__img"
+              src="images/Koelo.jpg"
+              alt="Koelo_book"
+              width="150"
+            />
+            <p class="model__book">Пауло Коэльо "Алхимик"</p>
+            <span class="model__price"> 350 руб.</span>
+            <a class="model__link" href="#"> Подробнее</a>
+          </li>
+          <li class="model__list-item">
+            <img
+              class="model__img"
+              src="images/Sartr.png"
+              alt="Sartr_book"
+              width="150"
+            />
+            <p class="model__book">Ж.П.Сартр "Тошнота"</p>
+            <span class="model__price"> 450 руб.</span>
+            <a class="model__link" href="#"> Подробнее</a>
+          </li>
+        </ul>
+      </section>
+      <section class="about">
+        <div class="about__wrap-left">
+          <h2 class="about__title">О компании</h2>
+          <p>
+            Book12 — это современный интернет-магазин, специализирующийся на
+            продаже книг различных жанров и направлений. Мы гордимся тем, что
+            предоставляем нашим клиентам широкий ассортимент литературы, включая
+            художественные произведения, научные издания, учебники и книги для
+            детей. Наша цель — сделать чтение доступным и увлекательным для
+            всех.
+          </p>
+        </div>
+        <div class="about__wrap-right">
+          <img
+            class="about__image"
+            src="images/book shop.jpg"
+            alt="Фото магазина"
+            width="500"
+            height="200"
+          />
+        </div>
+      </section>
+    </main>
+    <footer class="footer container">
+      <h2 class="creator">Разработчик</h2>
+      <p class="name">Коршунова Татьяна ЭК-31</p>
+    </footer>
+  </body>
+</html>
